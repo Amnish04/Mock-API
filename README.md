@@ -1,6 +1,7 @@
 # Mock-API
 
 A mock api using json-server for mocking endpoints and faker for generating fake data following a particular schema.
+
 URL: https://fake-api-json-server-f42f.onrender.com
 
 ## Endpoints ##
