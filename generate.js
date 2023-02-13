@@ -7,7 +7,6 @@ module.exports = function() {
         return {
             id: i,
             userType: faker.helpers.arrayElement(["admin", "viewer"]),
-            // name: faker.helpers.arrayElement(["Amnish", "Alex"]),
             name: faker.name.firstName(),
             email: faker.internet.email(this.name),
             pwd: faker.internet.password(10, true),
