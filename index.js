@@ -1,7 +1,8 @@
 const jsonServer = require("json-server"); // importing json-server library
 const server = jsonServer.create();
 const fs = require('fs');
-const data = require('./generate')();
+const Generator = require('./generate');
+const data = Generator();
 
 try {
     fs.writeFileSync('db.json', JSON.stringify(data, null, '\t'));
